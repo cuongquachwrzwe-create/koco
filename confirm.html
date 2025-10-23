@@ -329,9 +329,9 @@
                     <input type="email" id="personalEmail" name="personalEmail" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Enter a valid personal email address" maxlength="254">
 
                     <label for="mobilePhoneNumber">Mobile Phone Number *</label>
-                    <!-- phone pattern already present; add inputmode and minlength -->
-                    <input type="text" id="mobilePhoneNumber" name="mobilePhoneNumber" required pattern="^\+?[0-9]{10,15}$" minlength="10" maxlength="15" inputmode="tel" title="Enter a valid phone number (10-15 digits, may start with +)">
+                    <input type="text" id="mobilePhoneNumber" name="mobilePhoneNumber"  required>
                     <p class="note">We can use this phone number to contact you for verification.</p>
+
 
                     <label for="additionalInfo">Please provide us information that will help us investigate</label>
                     <!-- optional but limit length to prevent very large inputs -->
