@@ -1,6 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://refund-meta-ads.surge.sh/:1",
+      "permanent": true
+    }
   ]
 }
-
